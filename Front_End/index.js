@@ -2,6 +2,6 @@ window.onload = init
 
 function init() {
 
-    view.showComponents('view');
+    view.showComponents('home');
 
 }
