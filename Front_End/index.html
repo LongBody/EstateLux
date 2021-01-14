@@ -9,7 +9,13 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/login.css">
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <link href='https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css'>
+    <script src='https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js'></script>
+    <link href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 </head>
 
@@ -19,7 +25,7 @@
 
 
     <nav class="navbar navbar-expand-sm navbar-light bg-light">
-        <a class="navbar-brand" href="#"><img src="https://staticfile.batdongsan.com.vn/images/Logo/ic_logo_2.svg"></a>
+        <a class="navbar-brand" href="#"><img src="./image/logo.png" style="height: 80px;"></a>
         <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -137,11 +143,107 @@
                 </li> -->
             </ul>
             <form class="form-inline my-2 my-lg-0 ">
-                <input class="form-control mr-sm-2 " type="text " placeholder="Search ">
-                <button class="btn btn-outline-success my-2 my-sm-0 " type="submit ">Search</button>
+                <button class="btn btn-outline-secondary my-2 my-sm-0 btn-sm" type="submit " style="margin-right: 10px;" data-toggle="modal" data-target="#signupModal">Đăng Kí</button>
+                <button class="btn btn-outline-secondary my-2 my-sm-0 btn-sm" type="submit " data-toggle="modal" data-target="#signinModal">Đăng Nhập</button>
+
             </form>
         </div>
     </nav>
+
+
+    <div class="modal fade" id="signinModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel"><img src="./image/logo.png" style="height: 50px;"></h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+                </div>
+                <div class="modal-body">
+
+                    <div class="row d-flex">
+                        <div class="col-lg-12">
+                            <div class="card2 card border-0 px-4 py-5">
+                                <div class="row mb-4 px-3">
+                                    <h6 class="mb-0 mr-4 mt-2">Sign in with</h6>
+                                    <div class="facebook text-center mr-3">
+                                        <i class="fab fa-facebook-f"></i>
+                                    </div>
+                                    <div class="twitter text-center mr-3">
+                                        <i class="fab fa-twitter"></i>
+                                    </div>
+                                    <div class="google text-center mr-3">
+                                        <i class="fab fa-google"></i>
+                                    </div>
+                                </div>
+                                <div class="row px-3 mb-4">
+                                    <div class="line"></div> <small class="or text-center">Or</small>
+                                    <div class="line"></div>
+                                </div>
+                                <div class="row px-3"> <label class="mb-1">
+                                                <h6 class="mb-0 text-sm">Email Address or phone</h6>
+                                            </label> <input class="mb-4" type="text" name="email" placeholder="Enter a valid email address or phone"> </div>
+                                <div class="row px-3"> <label class="mb-1">
+                                                <h6 class="mb-0 text-sm">Password</h6>
+                                            </label> <input type="password" name="password" placeholder="Enter password"> </div>
+                                <div class="row px-3 mb-4">
+                                    <div class="custom-control custom-checkbox custom-control-inline"> <input id="chk1" type="checkbox" name="chk" class="custom-control-input"> <label for="chk1" class="custom-control-label text-sm">Remember me</label> </div> <a href="#" class="ml-auto mb-0 text-sm">Forgot Password?</a>
+                                </div>
+                                <div class="row mb-3 px-3"> <button type="submit" class="btn btn-danger text-center">Sign in</button> </div>
+                                <div class="row mb-4 px-3"> <small class="font-weight-bold">Have an account? <a class="text-danger "  data-toggle="modal" data-target="#signupModal">Register</a></small> </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="modal fade" id="signupModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel"><img src="./image/logo.png" style="height: 50px;"></h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+                </div>
+                <div class="modal-body">
+
+                    <div class="row d-flex">
+                        <div class="col-lg-12">
+                            <div class="card2 card border-0 px-4 py-5">
+
+                                <div class="row px-3"> <label class="mb-1">
+                                                <h6 class="mb-0 text-sm">Email Address or phone</h6>
+                                            </label> <input class="mb-4" type="text" name="email" placeholder="Enter a valid email address or phone"> </div>
+                                <div class="row px-3"> <label class="mb-">
+                                                <h6 class="mb-0 text-sm">Username</h6>
+                                            </label> <input class="mb-4" type="password" name="password" placeholder="Enter username"> </div>
+                                <div class="row px-3"> <label class="mb-">
+                                                <h6 class="mb-0 text-sm">Password</h6>
+                                            </label> <input class="mb-4" type="password" name="password" placeholder="Enter password"> </div>
+                                <div class="row px-3 "> <label class="mb-1">
+                                                <h6 class="mb-0 text-sm">Confirm Password</h6>
+                                            </label> <input type="password" class="mb-3" name="confirmPassword" placeholder="Enter confirm password"> </div>
+
+                                <div class="row mb-3 px-3"> <button type="submit" class="btn btn-danger text-center">Sign up</button> </div>
+                                <div class="row mb-4 px-3"> <small class="font-weight-bold">Don't have an account? <a class="text-danger " data-toggle="modal" data-target="#signinModal">Sign in</a></small> </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                </div>
+            </div>
+        </div>
+    </div>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
