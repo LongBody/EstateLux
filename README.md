@@ -20,7 +20,7 @@ Tool : GitHub , Trello , Discord , .... <br/>
 <b>Programming languages & another </b>
 <table>
   <tr>
-    <td valign="top"><img src="./Front_End/image/html.png" height="100p"/></td>
+    <td valign="top"><img src="./Front_End/image/html.png" height="100p" style="border:none"/></td>
     <td valign="top"><img src="./Front_End/image/css.png" height="100p"/></td>
     <td valign="top"><img src="./Front_End/image/js.png" height="100p"/></td>
     <td valign="top"><img src="./Front_End/image/java.png" height="100p"/></td>
