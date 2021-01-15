@@ -11,21 +11,10 @@ Back-End : Hà Văn Quang , Hà Phẩm Cương <br/>
 Database : Nguyễn Thành Long , Hà Văn Quang <br/>
 Data : Nguyễn Trọng Duy An , Hoàng Đức Trường <br/>
 Docs : Nguyễn Trọng Duy An, Hoàng Đức Trường <br/>
+Programming languages & another : HTML , CSS ,JS, JAVA<br/>
 Design library ,IDE & another : Boostrap 4 , MySQL , Visual Studio Code, Eclipse <br/>
 Framework: Spring MVC <br/>
 Tool : GitHub , Trello , Discord , .... <br/>
-
-
-<h2>Information</h2>
-<b>Programming languages & another </b>
-<table>
-  <tr>
-    <td valign="top"><img src="./Front_End/image/html.png" height="100p"/></td>
-    <td valign="top"><img src="./Front_End/image/css.png" height="100p"/></td>
-    <td valign="top"><img src="./Front_End/image/js.png" height="100p"/></td>
-    <td valign="top"><img src="./Front_End/image/java.png" height="100p"/></td>
-  </tr>
-</table>
 
 
 <h2>Documentation</h2>
