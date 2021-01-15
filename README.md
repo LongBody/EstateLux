@@ -15,19 +15,6 @@ Design library ,IDE & another : Boostrap 4 , MySQL , Visual Studio Code, Eclipse
 Framework: Spring MVC <br/>
 Tool : GitHub , Trello , Discord , .... <br/>
 
-
-<h2>Information</h2>
-<b>Programming languages & another </b>
-<table>
-  <tr>
-    <td valign="top"><img src="./Front_End/image/html.png" height="100p" style="border:none"/></td>
-    <td valign="top"><img src="./Front_End/image/css.png" height="100p"/></td>
-    <td valign="top"><img src="./Front_End/image/js.png" height="100p"/></td>
-    <td valign="top"><img src="./Front_End/image/java.png" height="100p"/></td>
-  </tr>
-</table>
-
-
 <h2>Documentation</h2>
 <a href="https://github.com/LongBody/EstateLux/tree/main/docs">Docs</a>
 <h2>Examples</h2>
